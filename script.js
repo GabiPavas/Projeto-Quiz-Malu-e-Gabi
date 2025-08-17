@@ -1,9 +1,8 @@
 const caixaPrincipal = document.querySelector(".caixa-principal");
-const caixaPerguntas = document.querySelector(".caixa-perguntas");
+const caixaPerguntas = document.querySelector(".caixa-pergunta");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
-
 const perguntas = [
 {
 enunciado: "Durante uma entrevista para TV, uma profissional fala sobre como ajuda pacientes a entenderem seus sentimentos e superarem traumas. Ela menciona que não receita remédios, mas utiliza técnicas de escuta e aconselhamento. Quem é ela?",
